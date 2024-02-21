@@ -400,7 +400,6 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                         InlineKeyboardButton(text="◁", callback_data="mukesh_back"),
                     ],
                 ]
-            ),
         )
     elif query.data == "mukesh_support":
         query.message.edit_caption("**๏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ʜᴇʟᴩ ᴀɴᴅ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀ**"
